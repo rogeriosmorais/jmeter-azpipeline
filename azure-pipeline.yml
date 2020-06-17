@@ -12,7 +12,7 @@ jobs:
     inputs:
       targetType: filePath
       filePath: 'jmeter/test.sh'
-      arguments: '$PWD JMeter_HTTP Request.jmx $(host)'
+      arguments: '$PWD JMeter_HTTP_Request.jmx $(host)'
       workingDirectory: jmeter
       failOnStderr: true
   - task: PublishPipelineArtifact@1
